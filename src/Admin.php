@@ -1,11 +1,11 @@
 <?php
 
-namespace Encore\Admin;
+namespace Dsaga\Admin;
 
 use Closure;
-use Encore\Admin\Auth\Database\Menu;
-use Encore\Admin\Layout\Content;
-use Encore\Admin\Widgets\Navbar;
+use Dsaga\Admin\Auth\Database\Menu;
+use Dsaga\Admin\Layout\Content;
+use Dsaga\Admin\Widgets\Navbar;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
@@ -46,7 +46,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Encore\Admin\Grid
+     * @return \Dsaga\Admin\Grid
      */
     public function grid($model, Closure $callable)
     {
@@ -57,7 +57,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Encore\Admin\Form
+     * @return \Dsaga\Admin\Form
      */
     public function form($model, Closure $callable)
     {
@@ -69,7 +69,7 @@ class Admin
      *
      * @param $model
      *
-     * @return \Encore\Admin\Tree
+     * @return \Dsaga\Admin\Tree
      */
     public function tree($model, Closure $callable = null)
     {
@@ -79,7 +79,7 @@ class Admin
     /**
      * @param Closure $callable
      *
-     * @return \Encore\Admin\Layout\Content
+     * @return \Dsaga\Admin\Layout\Content
      */
     public function content(Closure $callable = null)
     {
@@ -213,7 +213,7 @@ class Admin
     /**
      * Get navbar object.
      *
-     * @return \Encore\Admin\Widgets\Navbar
+     * @return \Dsaga\Admin\Widgets\Navbar
      */
     public function getNavbar()
     {
@@ -233,7 +233,7 @@ class Admin
     {
         $attributes = [
             'prefix'     => config('admin.route.prefix'),
-            'namespace'  => 'Encore\Admin\Controllers',
+            'namespace'  => 'Dsaga\Admin\Controllers',
             'middleware' => config('admin.route.middleware'),
         ];
 

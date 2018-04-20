@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Dsaga\Admin\Controllers;
 
-use Encore\Admin\Admin;
+use Dsaga\Admin\Admin;
 
 class Dashboard
 {

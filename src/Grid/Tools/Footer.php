@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Dsaga\Admin\Grid\Tools;
 
-use Encore\Admin\Grid;
+use Dsaga\Admin\Grid;
 
 class Footer extends AbstractTool
 {

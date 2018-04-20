@@ -1,16 +1,16 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Dsaga\Admin\Controllers;
 
-use Encore\Admin\Auth\Database\Menu;
-use Encore\Admin\Auth\Database\Role;
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Layout\Column;
-use Encore\Admin\Layout\Content;
-use Encore\Admin\Layout\Row;
-use Encore\Admin\Tree;
-use Encore\Admin\Widgets\Box;
+use Dsaga\Admin\Auth\Database\Menu;
+use Dsaga\Admin\Auth\Database\Role;
+use Dsaga\Admin\Facades\Admin;
+use Dsaga\Admin\Form;
+use Dsaga\Admin\Layout\Column;
+use Dsaga\Admin\Layout\Content;
+use Dsaga\Admin\Layout\Row;
+use Dsaga\Admin\Tree;
+use Dsaga\Admin\Widgets\Box;
 use Illuminate\Routing\Controller;
 
 class MenuController extends Controller
@@ -32,7 +32,7 @@ class MenuController extends Controller
                 $row->column(6, $this->treeView()->render());
 
                 $row->column(6, function (Column $column) {
-                    $form = new \Encore\Admin\Widgets\Form();
+                    $form = new \Dsaga\Admin\Widgets\Form();
                     $form->action(admin_base_path('auth/menu'));
 
                     $form->select('parent_id', trans('admin.parent_id'))->options(Menu::selectOptions());
@@ -61,7 +61,7 @@ class MenuController extends Controller
     }
 
     /**
-     * @return \Encore\Admin\Tree
+     * @return \Dsaga\Admin\Tree
      */
     protected function treeView()
     {

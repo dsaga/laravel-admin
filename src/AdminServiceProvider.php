@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin;
+namespace Dsaga\Admin;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -10,11 +10,11 @@ class AdminServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        'Encore\Admin\Console\MakeCommand',
-        'Encore\Admin\Console\MenuCommand',
-        'Encore\Admin\Console\InstallCommand',
-        'Encore\Admin\Console\UninstallCommand',
-        'Encore\Admin\Console\ImportCommand',
+        'Dsaga\Admin\Console\MakeCommand',
+        'Dsaga\Admin\Console\MenuCommand',
+        'Dsaga\Admin\Console\InstallCommand',
+        'Dsaga\Admin\Console\UninstallCommand',
+        'Dsaga\Admin\Console\ImportCommand',
     ];
 
     /**
@@ -23,11 +23,11 @@ class AdminServiceProvider extends ServiceProvider
      * @var array
      */
     protected $routeMiddleware = [
-        'admin.auth'       => \Encore\Admin\Middleware\Authenticate::class,
-        'admin.pjax'       => \Encore\Admin\Middleware\Pjax::class,
-        'admin.log'        => \Encore\Admin\Middleware\LogOperation::class,
-        'admin.permission' => \Encore\Admin\Middleware\Permission::class,
-        'admin.bootstrap'  => \Encore\Admin\Middleware\Bootstrap::class,
+        'admin.auth'       => \Dsaga\Admin\Middleware\Authenticate::class,
+        'admin.pjax'       => \Dsaga\Admin\Middleware\Pjax::class,
+        'admin.log'        => \Dsaga\Admin\Middleware\LogOperation::class,
+        'admin.permission' => \Dsaga\Admin\Middleware\Permission::class,
+        'admin.bootstrap'  => \Dsaga\Admin\Middleware\Bootstrap::class,
     ];
 
     /**

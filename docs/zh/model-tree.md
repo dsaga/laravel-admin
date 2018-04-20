@@ -23,8 +23,8 @@ CREATE TABLE `demo_categories` (
 
 namespace App\Models\Demo;
 
-use Encore\Admin\Traits\AdminBuilder;
-use Encore\Admin\Traits\ModelTree;
+use Dsaga\Admin\Traits\AdminBuilder;
+use Dsaga\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
@@ -40,8 +40,8 @@ class Category extends Model
 
 namespace App\Models\Demo;
 
-use Encore\Admin\Traits\AdminBuilder;
-use Encore\Admin\Traits\ModelTree;
+use Dsaga\Admin\Traits\AdminBuilder;
+use Dsaga\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
@@ -69,11 +69,11 @@ namespace App\Admin\Controllers\Demo;
 
 use App\Http\Controllers\Controller;
 use App\Models\Category;
-use Encore\Admin\Form;
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Layout\Content;
-use Encore\Admin\Controllers\ModelForm;
-use Encore\Admin\Tree;
+use Dsaga\Admin\Form;
+use Dsaga\Admin\Facades\Admin;
+use Dsaga\Admin\Layout\Content;
+use Dsaga\Admin\Controllers\ModelForm;
+use Dsaga\Admin\Tree;
 
 class CategoryController extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Dsaga\Admin\Traits;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Tree;
+use Dsaga\Admin\Form;
+use Dsaga\Admin\Grid;
+use Dsaga\Admin\Tree;
 
 trait AdminBuilder
 {

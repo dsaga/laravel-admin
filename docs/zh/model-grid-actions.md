@@ -42,7 +42,7 @@ $grid->actions(function ($actions) {
 
 namespace App\Admin\Extensions;
 
-use Encore\Admin\Admin;
+use Dsaga\Admin\Admin;
 
 class CheckRow
 {

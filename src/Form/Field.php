@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Dsaga\Admin\Form;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
+use Dsaga\Admin\Admin;
+use Dsaga\Admin\Form;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

@@ -2,10 +2,10 @@
 
 ## Box
 
-`Encore\Admin\Widgets\Box` used to generate box components:
+`Dsaga\Admin\Widgets\Box` used to generate box components:
 
 ```php
-use Encore\Admin\Widgets\Box;
+use Dsaga\Admin\Widgets\Box;
 
 $box = new Box('Box Title', 'Box content');
 
@@ -37,9 +37,9 @@ The `Box::solid()` method adds a border to the Box component.
 
 ## Collapse
 
-`Encore\Admin\Widgets\Collapse` class used to generate folding components:
+`Dsaga\Admin\Widgets\Collapse` class used to generate folding components:
 ```php
-use Encore\Admin\Widgets\Collapse;
+use Dsaga\Admin\Widgets\Collapse;
 
 $collapse = new Collapse();
 
@@ -55,7 +55,7 @@ The `Collapse::add($title, $content)` method is used to add a collapsed item to 
 
 ## Form
 
-`Encore\Admin\Widgets\Form` class is used to quickly build a form：
+`Dsaga\Admin\Widgets\Form` class is used to quickly build a form：
 
 ```php
 
@@ -86,10 +86,10 @@ echo $form->render();
 
 ## Infobox
 
-The `Encore\Admin\Widgets\InfoBox` class is used to generate the information presentation block:
+The `Dsaga\Admin\Widgets\InfoBox` class is used to generate the information presentation block:
 
 ```php
-use Encore\Admin\Widgets\InfoBox;
+use Dsaga\Admin\Widgets\InfoBox;
 
 $infoBox = new InfoBox('New Users', 'users', 'aqua', '/admin/users', '1024');
 
@@ -101,10 +101,10 @@ Refer to the section on the `InfoBox` in the` index()`method of the home page la
 
 ## Tab component
 
-The `Encore\Admin\Widgets\Tab` class is used to generate the tab components:
+The `Dsaga\Admin\Widgets\Tab` class is used to generate the tab components:
 
 ```php
-use Encore\Admin\Widgets\Tab;
+use Dsaga\Admin\Widgets\Tab;
 
 $tab = new Tab();
 
@@ -120,10 +120,10 @@ The `Tab::ad ($title, $content)` method is used to add a tab, `$title` for the o
 
 ## Table
 
-`Encore\Admin\Widgets\Table` class is used to generate forms：
+`Dsaga\Admin\Widgets\Table` class is used to generate forms：
 
 ```php
-use Encore\Admin\Widgets\Table;
+use Dsaga\Admin\Widgets\Table;
 
 // table 1
 $headers = ['Id', 'Email', 'Name', 'Company'];

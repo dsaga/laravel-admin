@@ -1,11 +1,11 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Dsaga\Admin\Grid;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\AbstractTool;
-use Encore\Admin\Grid\Tools\BatchActions;
-use Encore\Admin\Grid\Tools\RefreshButton;
+use Dsaga\Admin\Grid;
+use Dsaga\Admin\Grid\Tools\AbstractTool;
+use Dsaga\Admin\Grid\Tools\BatchActions;
+use Dsaga\Admin\Grid\Tools\RefreshButton;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

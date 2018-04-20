@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Auth\Database;
+namespace Dsaga\Admin\Auth\Database;
 
-use Encore\Admin\Traits\AdminBuilder;
-use Encore\Admin\Traits\ModelTree;
+use Dsaga\Admin\Traits\AdminBuilder;
+use Dsaga\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\DB;

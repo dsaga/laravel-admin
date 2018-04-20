@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Middleware;
+namespace Dsaga\Admin\Middleware;
 
-use Encore\Admin\Auth\Database\OperationLog as OperationLogModel;
-use Encore\Admin\Facades\Admin;
+use Dsaga\Admin\Auth\Database\OperationLog as OperationLogModel;
+use Dsaga\Admin\Facades\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

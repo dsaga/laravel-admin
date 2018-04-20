@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin;
+namespace Dsaga\Admin;
 
-use Encore\Admin\Auth\Database\Menu;
-use Encore\Admin\Auth\Database\Permission;
+use Dsaga\Admin\Auth\Database\Menu;
+use Dsaga\Admin\Auth\Database\Permission;
 use Illuminate\Support\Facades\Route;
 
 abstract class Extension

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Dsaga\Admin\Console;
 
-use Encore\Admin\Admin;
+use Dsaga\Admin\Admin;
 use Illuminate\Console\Command;
 
 class ImportCommand extends Command

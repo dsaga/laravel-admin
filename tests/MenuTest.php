@@ -1,7 +1,7 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
-use Encore\Admin\Auth\Database\Menu;
+use Dsaga\Admin\Auth\Database\Administrator;
+use Dsaga\Admin\Auth\Database\Menu;
 
 class MenuTest extends TestCase
 {

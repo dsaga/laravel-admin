@@ -1,11 +1,11 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Dsaga\Admin\Controllers;
 
-use Encore\Admin\Auth\Database\Administrator;
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Layout\Content;
+use Dsaga\Admin\Auth\Database\Administrator;
+use Dsaga\Admin\Facades\Admin;
+use Dsaga\Admin\Form;
+use Dsaga\Admin\Layout\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;

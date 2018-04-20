@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin;
+namespace Dsaga\Admin;
 
 use Closure;
-use Encore\Admin\Tree\Tools;
+use Dsaga\Admin\Tree\Tools;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 

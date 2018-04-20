@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Dsaga\Admin\Grid;
 
 use Closure;
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Displayers\AbstractDisplayer;
+use Dsaga\Admin\Grid;
+use Dsaga\Admin\Grid\Displayers\AbstractDisplayer;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\URL;

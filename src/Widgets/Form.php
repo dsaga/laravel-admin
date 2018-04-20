@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Widgets;
+namespace Dsaga\Admin\Widgets;
 
-use Encore\Admin\Form\Field;
+use Dsaga\Admin\Form\Field;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 
@@ -179,7 +179,7 @@ class Form implements Renderable
      */
     public static function findFieldClass($method)
     {
-        $class = array_get(\Encore\Admin\Form::$availableFields, $method);
+        $class = array_get(\Dsaga\Admin\Form::$availableFields, $method);
 
         if (class_exists($class)) {
             return $class;

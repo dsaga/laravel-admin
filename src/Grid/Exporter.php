@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Dsaga\Admin\Grid;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Exporters\CsvExporter;
+use Dsaga\Admin\Grid;
+use Dsaga\Admin\Grid\Exporters\CsvExporter;
 
 class Exporter
 {

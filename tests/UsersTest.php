@@ -1,6 +1,6 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
+use Dsaga\Admin\Auth\Database\Administrator;
 
 class UsersTest extends TestCase
 {

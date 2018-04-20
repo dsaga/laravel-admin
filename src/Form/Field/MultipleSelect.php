@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Dsaga\Admin\Form\Field;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 

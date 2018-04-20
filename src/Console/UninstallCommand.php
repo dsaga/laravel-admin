@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Dsaga\Admin\Console;
 
 use Illuminate\Console\Command;
 

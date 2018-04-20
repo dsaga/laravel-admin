@@ -23,11 +23,11 @@
     <a href="https://scrutinizer-ci.com/g/z-song/laravel-admin/?branch=master">
         <img src="https://scrutinizer-ci.com/g/z-song/laravel-admin/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality">
     </a>
-    <a href="https://packagist.org/packages/encore/laravel-admin">
-        <img src="https://img.shields.io/packagist/l/encore/laravel-admin.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
+    <a href="https://packagist.org/packages/dsaga/laravel-admin">
+        <img src="https://img.shields.io/packagist/l/dsaga/laravel-admin.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
     </a>
-    <a href="https://packagist.org/packages/encore/laravel-admin">
-        <img src="https://img.shields.io/packagist/dt/encore/laravel-admin.svg?style=flat-square" alt="Total Downloads">
+    <a href="https://packagist.org/packages/dsaga/laravel-admin">
+        <img src="https://img.shields.io/packagist/dt/dsaga/laravel-admin.svg?style=flat-square" alt="Total Downloads">
     </a>
     <a href="https://github.com/z-song/laravel-admin">
         <img src="https://img.shields.io/badge/Awesome-Laravel-brightgreen.svg?style=flat-square" alt="Awesome Laravel">
@@ -57,13 +57,13 @@ Installation
 First, install laravel 5.5, and make sure that the database connection settings are correct.
 
 ```
-composer require encore/laravel-admin
+composer require dsaga/laravel-admin
 ```
 
 Then run these commands to publish assets and config：
 
 ```
-php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
+php artisan vendor:publish --provider="Dsaga\Admin\AdminServiceProvider"
 ```
 After run command you can find config file in `config/admin.php`, in this file you can change the install directory,db connection or table names.
 

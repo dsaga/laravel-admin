@@ -3,11 +3,11 @@
 namespace Tests\Controllers;
 
 use App\Http\Controllers\Controller;
-use Encore\Admin\Controllers\ModelForm;
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Layout\Content;
+use Dsaga\Admin\Controllers\ModelForm;
+use Dsaga\Admin\Facades\Admin;
+use Dsaga\Admin\Form;
+use Dsaga\Admin\Grid;
+use Dsaga\Admin\Layout\Content;
 use Tests\Models\MultipleImage;
 
 class MultipleImageController extends Controller
